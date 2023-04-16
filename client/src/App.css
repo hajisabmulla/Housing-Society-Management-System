@@ -1,0 +1,1087 @@
+/* Css for Navbar */
+
+
+.navbar
+{
+  background-color: rgb(252, 252, 252);
+  width: 100%;
+
+  display: flex;
+  flex: wrap;
+  overflow: visible;
+  position: relative;
+
+}
+.us-name{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.nav-item{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar-brand{
+  
+  /* background-image: url("./Images/Housing Society MS.png"); */
+}
+.Home{
+  font-size: 25px;
+  color: rgb(18, 4, 80);
+}
+
+.d-flex{
+  margin-left:100px;
+}
+
+.d-flex > input{
+  width: 600px;
+}
+
+.btn-outline{
+  background-color: rgb(23, 23, 123);
+  color: rgb(255, 255, 255);
+}
+
+.LinkBTN{
+  padding-left: 900px;
+  color:rgb(0, 0, 0);
+ 
+  height: 20px;
+  /* background-color: aqua; */
+}
+
+.user{
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+
+/* css for banner */
+
+.Banner{
+  width:100%;
+  border-radius: 10px;
+  /* background-color: rgb(255, 0, 0); */
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  background-image: url('./Images/pexels-aleksejs-bergmanis-681331.jpg');
+}
+
+.Banner-details 
+{ margin-top: -400PX;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+
+}
+
+.Banner-details > p{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Verdana, sans-serif;
+  color:rgb(255, 255, 255);
+}
+
+/* css for login page */
+
+.Login-Page{
+  width: 100%;
+  background-color: rgb(244, 242, 240);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 250px;
+  justify-content: space-between;
+  row-gap: 10px;
+  position: relative;
+}
+.Heading{
+  width: 100%;
+  margin-top: -110px;
+  padding-left: 180px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.card{
+  width: 20rem;
+  height: 450px;
+  border-radius: 28px;
+  border-radius: 13px;
+  background: linear-gradient(145deg, #fafafa, #d5d8e3);
+  box-shadow:  15px 15px 35px #062a8dbe,
+               -15px -15px 35px #cecccf;
+   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card-body{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  justify-content: space-between;
+  position: relative;
+  
+}
+.btn-sign{
+  background-color: rgb(27, 22, 121);
+  color: rgb(255, 255, 255);
+  height: 40px;
+}
+
+.SocietyM-regist{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 50px;
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.custom-shape-divider-bottom-1668327749 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668327749 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 249px;
+}
+
+.custom-shape-divider-bottom-1668327749 .shape-fill {
+  fill: #1a1580;
+}
+
+
+/* css for Login page Society Member */
+
+.Login{
+  width: 100%;
+  padding:50px;
+  background-color: #c0c0c6;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #8484d9 10px ), repeating-linear-gradient( #0c128555, #1b1f6d );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(207, 174, 174);
+}
+.btn-sub{
+  background-color: rgb(27, 22, 121);
+  color: rgb(255, 255, 255);
+  margin-right: 240px;
+}
+
+.Login-form{
+  width: 900px;
+  height: 100%;
+  background-color: rgb(246, 245, 245);
+  border-radius: 10px;
+  display: flex;
+  /* height: 580px; */
+
+}
+
+.left{
+  width: 40%;
+  background-color: rgb(50, 41, 183);
+  padding: 50px;
+  /* background-image: url(''); */
+  
+  border-radius: 10px 0px 0px 10px;
+}
+
+.overlay> h1{
+  font-size: 39px;
+  font-weight: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(239, 219, 219); 
+}
+.overlay> p{
+  font-size: 20px;
+  font-weight:400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(255, 252, 252);
+}
+
+.right{
+  width: 60%;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.999);
+  padding: 50px;
+  border-radius: 0px 10px 10px 0px;
+}
+.right > h1{
+  font-size: 40px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(0, 0, 0);
+}
+
+.right > p{
+  font-size: 17px;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+.mb-3{
+  font-size: 22px;
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(0, 0, 0);
+}
+
+.mb-3>label{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Society member sign up */
+
+.SignUp-page{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding: 70px;
+  justify-content: center;
+  position:relative;
+  background-image: url("https://img.freepik.com/free-vector/white-background-with-wavy-lines-copy-space_23-2148822145.jpg?w=1060&t=st=1678295225~exp=1678295825~hmac=5af2aa1f487d51b8019a234ccdd6136f6949c521d39d85eb63c7d6d65a23ae3f");
+ 
+}
+
+
+/* .SP-left{
+width: 350px;
+position:relative;
+background-color: rgb(16, 1, 111);
+border-radius: 70px 0px 0px 20px;
+} */
+
+.SP-right{
+width: 600px;
+height: 100%;
+position:relative;
+padding: 40px;
+border-radius: 20px ;
+/* border-radius: 0px 20px 70px 0px; */
+background-color: rgb(206, 217, 248);
+}
+
+
+
+
+.SP-right>h1{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 600;
+  color:rgb(11, 6, 84)
+}
+label{
+  font-weight: 800;
+  font-size: 15px;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-create
+{
+  background-color: rgb(27, 22, 121);
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+}
+
+
+
+/* css for societymemberpage sidebar */
+
+.Meetings{
+  width: 100%;
+  /* background-color: aqua; */
+  justify-content:flex-start;
+  /* display: flex; */
+  flex-wrap: wrap;
+  
+  position: relative;
+  width: 100%;
+  overflow: scroll;
+  height: 650px;
+}
+
+
+
+.SM-Side-User{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  margin-bottom: -100vh;
+}
+
+
+.sidebar{
+  width: 20%;
+  height: 100%;
+  padding-right: 80%;
+  background-color:rgb(10, 40, 78);
+  padding: 20px;
+  
+}
+
+
+.btn-UserProfile{
+  width: 100%;
+  background-color: rgb(0, 29, 66);
+  color:rgb(255, 255, 255);
+  height: 45px;
+  border-radius: 0px;
+  margin-top: 5px;
+  border-color: rgb(0, 29, 66);
+  position: relative;
+}
+.btn-UserProfile:hover{
+  color: #ffffff;
+  background-color: #8787878c;
+}
+
+/* .dropdown{
+  background-color: rgb(0, 29, 66);
+  margin-top: 5px;
+  height: 45px;
+  position: relative;
+
+}
+
+.dropdown-toggle{
+  background-color: rgb(0, 29, 66);
+  overflow: show;
+  width: 100%;
+  border-color: rgb(0, 29, 66);
+  height: 45px;
+  position: relative;
+  border-radius: 0px;
+  
+  
+}
+
+.dropdown-menu{
+background-color:rgb(0, 29, 66);
+position: inherit;
+height: auto;
+width: 100%;
+}
+
+.dropdown-item{
+  color:rgb(255, 255, 255);
+  position: relative;
+  height:  inherit;
+} */
+
+
+.SM-userPage{
+  width:80%;
+  padding-left: 20%;
+  background-color: rgb(239, 238, 238);
+  padding: 20px;
+  height: 100%;
+  
+  
+}
+
+.btn-User-signOut{
+  margin-top: 400px;
+  color:rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 0px;
+  background-color:rgb(0, 29, 66);
+}
+.btn-User-signOut:Hover{
+  background-color: #f6f6f6;
+ 
+}
+
+/* CSS for Society UserProfile */
+
+.UserProf{
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  height: 100vh;
+  
+  background-image: url;
+  background: #ffffff;
+
+}
+
+.userDetails{
+  width: 100%;
+  /* background-color: aqua; */
+  /* padding: 10px; */
+  column-gap: 20px;
+  justify-content:center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+
+.H1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  
+  color: rgb(27, 27, 122);
+}
+
+.Form-Input{
+  width: 400px;
+  height: 35px;
+  row-gap: 10px;
+  border-radius: 8px;
+  border-style: solid black;
+  display:flex;
+  flex-wrap: wrap;
+  font-family:'Times New Roman', Times, serifd;
+  background-color: #ffffff;
+  background: #e6ebea;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  28px 28px 56px #a3a7a6,
+               -28px -28px 56px #ffffff;
+}
+
+.custom-shape-divider-bottom-1668325809 {
+  position: relative;;
+  
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1668325809 svg {
+  position: relative;
+  display: flex;
+  width: calc(119% + 1.3px);
+  height: 118px;
+}
+
+.custom-shape-divider-bottom-1668325809 .shape-fill {
+  fill: #0e0383;
+  
+}
+
+.EditProfile{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  
+  /* background-color: red; */
+
+}
+
+.EditProfile>h3{
+  padding:10px 20px 0px 0px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.pen{
+  padding:10px 20px 0px 0px;
+  font-size: 25px;
+ color:rgb(18, 6, 236);
+
+}
+
+
+/* css for fees payment */
+
+.Fees{
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  height: 100vh;
+  
+  background-image: url;
+  background: #ffffff;
+}
+
+.Pay-Fees{
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 50px;
+  column-gap: 20px;
+  justify-content:flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+
+.dropdown{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+ 
+}
+
+.dropdown>h4{
+  padding-right: 30px;
+}
+
+.dropdown-toggle{
+  width: 400px;
+  background-color: #062a8dbe;
+  color: #ffffff;
+  
+}
+
+
+.dropdown-toggle:hover{
+  background-color: #1a1580;
+}
+
+.Amount{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  /* background-color: red; */
+ 
+
+  margin-top: 22px;
+}
+.dropdown>label{
+  font-size: x-large;
+  padding-right: 36px;
+}
+
+.Amount>label{
+  font-size: x-large;
+  padding-right: 53px;
+}
+
+.btn-pay{
+  color: white;
+  width: 80px;
+  background-color: #1a1580;
+  border: #000000;
+  
+}
+
+.pay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+/* Chairman page */
+.ChSignUp-page{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 248, 248);
+  height: 100vh;
+  padding: 80px;
+  justify-content: center;
+  position:relative;
+  background-image: url("https://img.freepik.com/free-vector/white-background-with-wavy-lines-copy-space_23-2148822145.jpg?w=1060&t=st=1678295225~exp=1678295825~hmac=5af2aa1f487d51b8019a234ccdd6136f6949c521d39d85eb63c7d6d65a23ae3f");
+ 
+}
+
+
+.SPCm-left{
+  width: 300px;
+  position:relative;
+  background-color: rgb(16, 1, 111);
+  border-radius: 50px 0px 0px 20px;
+  height: 100%;
+  }
+  
+  .SPCm-right{
+  width: 450px;
+  height: 100%;
+  position:relative;
+  padding: 40px;
+  border-radius: 0px 20px 50px 0px;
+  background-color: rgb(196, 190, 190);
+  }
+  
+  .SPCm-right>h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:rgb(11, 6, 84)
+  }
+  label{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn-create
+  {
+    background-color: rgb(27, 22, 121);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+  }
+
+
+/* Chairman CRUD */
+
+.chairmanContainer{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #f6f6f6;
+  
+}
+.table-striped{
+  width: 100%;
+  border-collapse: collapse;
+}
+.theme-heading{
+  background-color: #230f75 !important;
+  color:white;
+
+}
+
+table td,table th {
+  padding: 15px !important;
+  border-left: 1px solid #e5e4e4;
+  border-right: 1px solid #e5e4e4;
+}
+
+.modal-overlay
+{
+ width: 80%;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.436);
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* display: none; */
+ margin-bottom: -100vh;
+ transition: 0.8s;
+ 
+}
+
+.modal{
+ width: 50%;
+ border-radius: 10px;
+
+ max-height: 70vh;
+ padding: 20px 25px;
+ background-color: rgb(255, 255, 255);
+ position: relative;
+ font-family: segoe UI;
+ display: flex;
+ flex-direction: column;
+ row-gap: 25px;
+ overflow: hidden;
+
+ transition: 0.3s;
+}
+
+.modal-content{
+ width: 100%;
+ height: 100vh;
+ /* background-color: red; */
+ overflow: hidden;
+ border-radius: 0px;
+ font-size: large;
+ border-color: #ffffff;
+
+}
+
+      
+
+       .close{
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        font-size: 30px;
+        color: red;
+       }
+
+       .delete{
+        font-size: 18px;
+        color: rgb(238, 44, 44);
+       padding-right: 8px;
+       
+       }
+
+       .edit{
+        color:rgb(13, 13, 133);
+        font-size: 18px;
+        
+       }
+
+
+
+
+       .SMCRUD{
+        width: 100%;
+        /* background-color: aqua; */
+        justify-content:flex-start;
+        /* display: flex; */
+        flex-wrap: wrap;
+        
+        position: relative;
+        width: 100%;
+        overflow: scroll;
+        height: 530px;
+        scroll-behavior: smooth;
+        
+      }
+
+  /* Secretary Page */
+
+  .StSignUp-page{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    padding: 80px;
+    justify-content: center;
+    position:relative;
+    background-image: url("https://img.freepik.com/free-vector/white-background-with-wavy-lines-copy-space_23-2148822145.jpg?w=1060&t=st=1678295225~exp=1678295825~hmac=5af2aa1f487d51b8019a234ccdd6136f6949c521d39d85eb63c7d6d65a23ae3f");
+   
+  }
+  
+  
+  .SPSt-left{
+    width: 300px;
+    position:relative;
+    background-color: rgb(16, 1, 111);
+    border-radius: 50px 0px 0px 20px;
+    height: 100%;
+   
+    }
+    
+    .SPSt-right{
+    width: 450px;
+    height: 100%;
+    position:relative;
+    padding: 40px;
+    border-radius: 0px 20px 50px 0px;
+    background-color: rgb(196, 190, 190);
+    }
+    
+    .SPSt-right>h1{
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 600;
+      color:rgb(11, 6, 84)
+    }
+    label{
+      font-weight: 800;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .btn-create
+    {
+      background-color: rgb(27, 22, 121);
+      color: rgb(255, 255, 255);
+      margin-top: 15px;
+      border-radius: 20px;
+      border-color: rgb(0, 0, 0);
+    }
+
+    .Add-Meetings{
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+    
+      column-gap: 20px;
+      position: relative;
+      padding: 10px;
+      
+
+    }
+
+    .Add-Meetings>h1{
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size:xx-larger;
+    }
+    
+    
+    .ManageMeetings{
+ 
+      width: 100%;
+      /* background-color: aqua; */
+      justify-content:flex-start;
+      /* display: flex; */
+      flex-wrap: wrap;
+      
+      position: relative;
+     
+      overflow: scroll;
+      height: 530px;
+      scroll-behavior: smooth;
+      
+
+    }
+
+
+
+    .modal-over
+{
+ /* width: 80%;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.436);
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* display: none; */
+ /* margin-bottom: -100vh;
+ transition: 0.8s; */
+  
+}
+
+.modal-i{
+ /* width: 50%;
+ border-radius: 10px;
+
+ max-height: 70vh;
+ padding: 20px 25px;
+ background-color: rgb(255, 255, 255);
+ position: relative;
+ font-family: segoe UI;
+ display: flex;
+ flex-direction: column;
+ row-gap: 25px;
+ overflow: hidden;
+
+ transition: 0.3s; */
+}
+
+.modal-details{
+ /* width: 100%;
+ height: 100vh;
+ /* background-color: red; */
+ /* overflow: hidden;
+ border-radius: 0px;
+ font-size: large;
+ border-color: #ffffff; */ 
+
+}
+
+   
+    
+
+
+
+
+
+
+    /* Treasurer page */
+    .TrSignUp-page{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(255, 255, 255);
+      height: 100vh;
+      padding: 80px;
+      justify-content: center;
+      position:relative;
+      background-image: url("https://img.freepik.com/free-vector/white-background-with-wavy-lines-copy-space_23-2148822145.jpg?w=1060&t=st=1678295225~exp=1678295825~hmac=5af2aa1f487d51b8019a234ccdd6136f6949c521d39d85eb63c7d6d65a23ae3f");
+     
+    }
+    
+    
+    .SPTr-left{
+      width: 300px;
+      position:relative;
+      background-color: rgb(16, 1, 111);
+      border-radius: 50px 0px 0px 20px;
+      height: 100%;
+      }
+      
+      .SPTr-right{
+      width: 450px;
+      height: 100%;
+      position:relative;
+      padding: 40px;
+      border-radius: 0px 20px 50px 0px;
+      background-color: rgb(196, 190, 190);
+      }
+      
+      .SPTr-right>h1{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 600;
+        color:rgb(11, 6, 84)
+      }
+      label{
+        font-weight: 800;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      
+      .btn-create
+      {
+        background-color: rgb(27, 22, 121);
+        color: rgb(255, 255, 255);
+        margin-top: 15px;
+        border-radius: 20px;
+        border-color: rgb(0, 0, 0);
+      }
+
+      .expense{
+        width: 100%;
+        /* background-color: aqua; */
+        padding: 50px;
+        column-gap: 20px;
+        justify-content:flex-start;
+        /* display: flex; */
+        flex-wrap: wrap;
+        padding-top: 30px;
+        position: relative;
+        width: 100%;
+        overflow: scroll;
+        height: 400px;
+        
+
+      }
+
+
+      .ViewFees{
+        width: 100%;
+        /* background-color: aqua; */
+        justify-content:flex-start;
+        /* display: flex; */
+        flex-wrap: wrap;
+        
+        position: relative;
+        width: 100%;
+        overflow: scroll;
+        height: 650px;
+        
+      }
+      
+
+   
+/* CSS for Footer */
+.Footer{
+  position: relative;
+  width: 100%;
+  top:100vh;
+  height:inherit;
+  margin-Top: inherit;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow:hidden;
+  
+}
+
+.footer-text{
+  
+  margin-top: 25px;
+}
+
+
+
+
+
+.alert {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+} 
+
+
+/* Payment */
+
+.QR_Instruction{
+  width: 100%;
+        /* background-color: aqua; */
+        padding: 10px;
+        column-gap: 20px;
+        /* justify-content:center; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        padding-top: 30px;
+        position: relative;  
+}
+
+.QR-Code{
+  width: 100%;
+  height: 380px;
+  /* background-color: red; */
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+ padding-top: 40px;
+}
+
+.img-top{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  padding: 10px;
+  /* border-color: #000000; */
+  /* background-color: #ae0ce4; */
+ flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+ 
+ background-image: url('./Images/adobe_express.png');
+}
+
+.card-b{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+  /* background-color: rgb(168, 32, 32); */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size:x-large;
+}
+
